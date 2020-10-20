@@ -35,6 +35,9 @@ void main() {
     print(keep);
   }
 
+  //for-each loop
+  numbers.forEach((value) => print(value));
+
   //while loop
 
   int i = 1;
