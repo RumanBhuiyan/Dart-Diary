@@ -1,5 +1,5 @@
 // Variables
-
+enum names { Ruman, Robiul }
 void main() {
   // Issues with Declaring Variables
   String name; // you can't assign  name=2; or name=2.5 like this
@@ -22,4 +22,7 @@ void main() {
   //const is used outside a class but final is used inside a class &
   //purpose of them is  to declare constant variable.const checks its value
   //immediately but final'v variable value is checked at compile time that's why  //final is called compile time constant.
+
+  // Enum types
+  names.values.forEach((value) => print('$value : ${value.index}'));
 }
