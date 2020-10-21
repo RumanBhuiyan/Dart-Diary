@@ -9,11 +9,11 @@ void main() {
 }
 
 abstract class Area {
-  double calculateArea(double l, double b) {}
+  calculateArea(double l, double b) {}
 }
 
 abstract class Volume {
-  double calculateVolume(double area, double h) {}
+  calculateVolume(double area, double h) {}
 }
 
 class Mass implements Area, Volume {

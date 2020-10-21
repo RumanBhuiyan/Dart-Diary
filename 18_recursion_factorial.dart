@@ -19,8 +19,8 @@ int factorial(int num) {
 
 //Process : 02
 int factorial2(int num) {
-  return (num == 1) ? 1 : num * factorial(num - 1);
+  return (num == 1) ? 1 : num * factorial2(num - 1);
 }
 
 //Process : 03
-int factorial3(int num) => (num == 1) ? 1 : num * factorial(num - 1);
+int factorial3(int num) => (num == 1) ? 1 : num * factorial3(num - 1);
