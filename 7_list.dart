@@ -25,6 +25,7 @@ void main() {
   // You can declare types of data of list explicitely & this is recommended
 
   List<int> keep = [];
+  // List<int> keep=new List<int>(); //type-safe generic style list
 
   for (int i = 20; i < 30; i++) keep.add(i + 1);
 
