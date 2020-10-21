@@ -8,11 +8,11 @@ void main() {
   print('Object mass is ${mass.calculateMass(250, 3, 4, 5)} Kg');
 }
 
-class Area {
+abstract class Area {
   double calculateArea(double l, double b) {}
 }
 
-class Volume {
+abstract class Volume {
   double calculateVolume(double area, double h) {}
 }
 
